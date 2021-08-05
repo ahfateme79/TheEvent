@@ -1,0 +1,241 @@
+@import url(./css/style.css);
+
+
+@media screen and (max-width: 768px) {
+  .heading-img img {
+    width: 110px;
+  }
+
+  .heading-img {
+    width: 40%;
+    align-items: flex-start;
+    padding: 30px;
+  }
+
+  nav ul {
+    position: fixed;
+    flex-direction: column;
+    background-color: white;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: flex-start;
+    display: none;
+  }
+
+  nav {
+    /* justify-content: center; */
+    padding-right: 20px;
+  }
+
+  nav ul li {
+    margin: 15px 20px;
+  }
+
+  nav li a {
+    color: black;
+  }
+
+  nav li a:hover {
+    color: var(--bs-red);
+  }
+
+  nav li a::after {
+    display: none;
+  }
+
+  nav .fas {
+    display: block;
+    right: 20px;
+    position: absolute;
+    top: 25px;
+    order: 2;
+  }
+
+  .buy-ticket {
+    width: 70%;
+    order: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .buy-ticket button {
+    margin: 0;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero {
+    padding: 15px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .bg-question div {
+    width: 95%;
+  }
+
+  .bg-question div:first-child {
+    width: 95%;
+  }
+
+  .heading {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .row > div {
+    width: 100%;
+  }
+
+  .row img {
+    min-height: 300px;
+  }
+
+  .tabs {
+    width: 90%;
+  }
+
+  .PARAGRAPH p {
+    font-size: 1rem;
+  }
+
+  .peoples {
+    width: 95%;
+  }
+
+  .peoples ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .peoples ul li:first-child .explain {
+    margin: 0;
+  }
+
+  .explain {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .map,
+  .newyork {
+    width: 100%;
+  }
+
+  .VENUE-gallery figure {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .sponsor-company figure {
+    width: 100%;
+    height: 150px;
+  }
+
+  .question {
+    width: 100%;
+  }
+
+  .newyork div {
+    width: 90%;
+  }
+
+  .newyork h4 {
+    font-size: 28px;
+  }
+
+  .heading .white-color {
+    width: 70%;
+    text-align: center;
+  }
+
+  .form-subscribe form {
+    width: 100%;
+  }
+
+  .form-subscribe input {
+    width: 60%;
+  }
+
+  .form-subscribe button {
+    width: 100px;
+  }
+
+  .ticket-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .ticket-card ul {
+    padding: 0 30px;
+  }
+
+  .items div {
+    width: 100%;
+    align-items: center;
+  }
+
+  .items div:not(:last-child) {
+    border-right: none;
+  }
+
+  .contact-form {
+    padding-bottom: 20px;
+  }
+
+  .contact-form input {
+    width: 100%;
+  }
+
+  .footer-detail {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-detail > div,
+  .footer-detail > div:nth-child(2) {
+    width: 100%;
+  }
+
+  .footer-logo p {
+    padding: 0;
+  }
+
+  .lists {
+    flex-wrap: wrap;
+  }
+
+  .lists ul {
+    width: 100%;
+  }
+
+  .addres {
+    padding: 0;
+  }
+
+  .open {
+    display: flex;
+  }
+  nav a.active {
+    color: var(--bs-red);
+  }
+  nav a:hover,
+  a.active {
+    color: var(--bs-red);
+  }
+}
