@@ -97,6 +97,7 @@ header::after {
   width: 170px;
 }
 
+
 nav {
   width: 70%;
   height: auto;
@@ -259,7 +260,7 @@ header h1 {
   min-height: 30vh;
   display: flex;
   justify-content: space-evenly;
-  background-image: url(./img/about-bg.jpg);
+  background-image: url(../img/about-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -719,7 +720,7 @@ details p {
 .NEWSLETTER {
   width: 100%;
   min-height: 40vh;
-  background-image: url(./img/subscribe-bg.jpg);
+  background-image: url(../img/subscribe-bg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
